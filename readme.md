@@ -1,4 +1,4 @@
-# Project: Unit Testing and Code Quality in Python
+# Project: Tests Unitaires et la Qualité du Code en Python
 
 ## Group Members
 - Kartik Kartik
@@ -35,29 +35,26 @@ coverage html
    python main.py
 
 ## Unit Testing and Code Quality
-Exercise 1: Creating tests for basic operations
-
-- Implemented MathOperations class with methods for addition, subtraction, multiplication, and division.
-
-- Wrote pytest tests for each operation in the tests/test_math_operations.py file.
-
-Exercise 2: Adding power with parameterization
-
-- Extended MathOperations class with a power method.
-
-- Created parameterized tests for the power method using pytest.
-
-Exercise 3: Improvement with modulo calculation and HTML report
-
-- Added a modulo method to the MathOperations class.
-
-- Implemented parameterized tests for the modulo method using pytest.
-
-Exercise 4: Interactive main function
-
-- Created a main function for user interaction and calculation.
-
-- Implemented parameterized tests for the main function using pytest.
+####Exo 1 : Création de tests pour les opérations de base :
+1. Créez une classe MathOperations dans un fichier main.py contenant des méthodes pour 
+l'addition, la soustraction, la multiplication et la division.
+2. Utilisez pytest pour écrire une suite de tests pour chaque opération, couvrant différents cas 
+(entiers, décimaux, négatifs, etc.).
+3. Assurez-vous de tester les cas limites et les cas d'erreur.
+Exo 2 : Ajout de la puissance avec paramétrisation :
+1. Ajoutez une méthode power à la classe MathOperations pour le calcul de la puissance.
+2. Utilisez pytest avec la paramétrisation pour créer des tests avec différents jeux de données 
+afin de vous assurer que la méthode fonctionne correctement.
+Exo 3 : Amélioration avec le calcul du modulo et rapport HTML :
+1. Ajoutez une méthode modulo à la classe MathOperations pour le calcul du modulo.
+2. Utilisez pytest avec la paramétrisation pour tester différentes combinaisons de nombres 
+pour cette nouvelle méthode.
+Exo 4 : Fonction main interactive :
+1. À la suite de vos fonctions, créez une fonction main qui ne prend aucun argument.
+2. Cette méthode demande à l'utilisateur de saisir des éléments à calculer et effectue 
+l’opération demandée en utilisant les fonctions précédemment créées.
+3. Utilisez pytest avec la paramétrisation pour tester différentes combinaisons d'entrées 
+utilisateur.
 ## Exercise 5: Evaluating test coverage
 - Used pytest to run tests and measured test coverage.
   ``` bash
