@@ -1,9 +1,11 @@
 # Project: Unit Testing and Code Quality in Python
 
 ## Group Members
-- [Member 1 Full Name]
-- [Member 2 Full Name]
-- [Member 3 Full Name]
+- Kartik Kartik
+- Chetana OLI
+- Krishnaraj KONGANAPURAM CHIDAMBARAM
+- Alioune badara FALL
+
 ## Project Description
 This project focuses on implementing unit tests and improving code quality in a Python project. The tools used include SonarQube, pytest, coverage, and Flake8. The project includes a simple calculator that interacts with the user to perform basic mathematical operations.
 
