@@ -35,7 +35,7 @@ coverage html
    python main.py
 
 ## Unit Testing and Code Quality
-####Exo 1 : Création de tests pour les opérations de base :
+Exo 1 : Création de tests pour les opérations de base :
 1. Créez une classe MathOperations dans un fichier main.py contenant des méthodes pour 
 l'addition, la soustraction, la multiplication et la division.
 2. Utilisez pytest pour écrire une suite de tests pour chaque opération, couvrant différents cas 
