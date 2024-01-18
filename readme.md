@@ -6,13 +6,13 @@
 - Krishnaraj KONGANAPURAM CHIDAMBARAM
 - Alioune badara FALL
 
-## Project Description
-This project focuses on implementing unit tests and improving code quality in a Python project. The tools used include SonarQube, pytest, coverage, and Flake8. The project includes a simple calculator that interacts with the user to perform basic mathematical operations.
+## Description du projet
+Ce projet se concentre sur la mise en œuvre de tests unitaires et l'amélioration de la qualité du code dans un projet Python. Les outils utilisés comprennent SonarQube, pytest, coverage et Flake8. Le projet comprend une calculatrice simple qui interagit avec l'utilisateur pour effectuer des opérations mathématiques de base.
 
 
-## Installation and Execution Instructions
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
+## Instructions d'installation et d'exécution
+1. Clonez ce référentiel sur votre machine locale.
+2. Accédez au répertoire du projet.
 3. Install the required dependencies:
   ```bash
 pip install pytest coverage flake8 pytest-html
@@ -60,8 +60,7 @@ l’opération demandée en utilisant les fonctions précédemment créées.
 utilisateur.
 
 #### Exercise 5: Evaluating test coverage
-- 
-- Used pytest to run tests and measured test coverage.
+- Pytest utilisé pour exécuter des tests et mesurer la couverture des tests.
   ```bash
    coverage run -m pytest -v
   Generated coverage report-html.
@@ -71,25 +70,26 @@ utilisateur.
 python -m pytest --html=report.html
 ```
 
-![pytest report](./images/coverage.png)
+![pytest report](coverage.png)
 
-- Generated coverage report and integrated it with pytest-html.
+
+- A généré un rapport de couverture et l'a intégré à pytest-html.
 
 ```bash
 coverage html
 ```
 
-![coverage report](./images/coverage.png)
+![coverage report](coverage.png)
 
-- Checked code style violations using Flake8 and generated an HTML report
+- Vérification des violations de style de code à l'aide de Flake8 et génération d'un rapport HTML
 
 ```bash
 python -m flake8 --format=html --htmldir=flake8-report .
 ```
 
-![flake8 report](./images/flake8.png)
+![flake8 report](flake8.png)
 
--output of calulation are
+- La Output de la calcul est
 
 ```bash
 python main.py
@@ -98,10 +98,10 @@ python main.py
 ![output calulation](./images/output.png)
 
 
-## Contributing
+## Contribuer
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Les demandes de tirage sont les bienvenues. Pour les changements majeurs, veuillez d'abord ouvrir un problème
 
-Please make sure to update tests as appropriate.
+Pour discuter de ce que vous aimeriez changer.
 
+Veuillez vous assurer de mettre à jour les tests le cas échéant.
