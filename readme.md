@@ -95,7 +95,7 @@ python -m flake8 --format=html --htmldir=flake8-report .
 python main.py
 ```
 
-![output calulation](./images/output.png)
+![output calulation](output.png)
 
 
 ## Contribuer
