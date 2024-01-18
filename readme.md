@@ -35,27 +35,31 @@ coverage html
    python main.py
 
 ## Unit Testing and Code Quality
-Exo 1 : Création de tests pour les opérations de base :
+### Exo 1 : Création de tests pour les opérations de base :
 1. Créez une classe MathOperations dans un fichier main.py contenant des méthodes pour 
 l'addition, la soustraction, la multiplication et la division.
 2. Utilisez pytest pour écrire une suite de tests pour chaque opération, couvrant différents cas 
 (entiers, décimaux, négatifs, etc.).
 3. Assurez-vous de tester les cas limites et les cas d'erreur.
-Exo 2 : Ajout de la puissance avec paramétrisation :
+
+### Exo 2 : Ajout de la puissance avec paramétrisation :
 1. Ajoutez une méthode power à la classe MathOperations pour le calcul de la puissance.
 2. Utilisez pytest avec la paramétrisation pour créer des tests avec différents jeux de données 
 afin de vous assurer que la méthode fonctionne correctement.
-Exo 3 : Amélioration avec le calcul du modulo et rapport HTML :
+
+### Exo 3 : Amélioration avec le calcul du modulo et rapport HTML :
 1. Ajoutez une méthode modulo à la classe MathOperations pour le calcul du modulo.
 2. Utilisez pytest avec la paramétrisation pour tester différentes combinaisons de nombres 
 pour cette nouvelle méthode.
-Exo 4 : Fonction main interactive :
+
+### Exo 4 : Fonction main interactive :
 1. À la suite de vos fonctions, créez une fonction main qui ne prend aucun argument.
 2. Cette méthode demande à l'utilisateur de saisir des éléments à calculer et effectue 
 l’opération demandée en utilisant les fonctions précédemment créées.
 3. Utilisez pytest avec la paramétrisation pour tester différentes combinaisons d'entrées 
 utilisateur.
-## Exercise 5: Evaluating test coverage
+
+### Exercise 5: Evaluating test coverage
 - Used pytest to run tests and measured test coverage.
   ``` bash
    coverage run -m pytest -v
