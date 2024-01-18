@@ -60,22 +60,43 @@ l’opération demandée en utilisant les fonctions précédemment créées.
 utilisateur.
 
 #### Exercise 5: Evaluating test coverage
+- 
 - Used pytest to run tests and measured test coverage.
-  ``` bash
+  ```bash
    coverage run -m pytest -v
-Generated coverage report-html.
+  Generated coverage report-html.
+  ```
+
 ```bash
 python -m pytest --html=report.html
 ```
+
+![pytest report](./images/coverage.png)
+
 - Generated coverage report and integrated it with pytest-html.
+
 ```bash
 coverage html
 ```
 
+![coverage report](./images/coverage.png)
+
 - Checked code style violations using Flake8 and generated an HTML report
+
 ```bash
 python -m flake8 --format=html --htmldir=flake8-report .
 ```
+
+![flake8 report](./images/flake8.png)
+
+-output of calulation are
+
+```bash
+python main.py
+```
+
+![output calulation](./images/output.png)
+
 
 ## Contributing
 
