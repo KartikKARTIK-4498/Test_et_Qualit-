@@ -121,6 +121,4 @@ python main.py
 
 Veuillez vous assurer de mettre à jour les tests le cas échéant.
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
